@@ -1,0 +1,9 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Generated Manim and Manim Slides output
+/media/
+/slides/
