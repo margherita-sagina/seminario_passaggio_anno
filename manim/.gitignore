@@ -7,3 +7,7 @@ __pycache__/
 # Generated Manim and Manim Slides output
 /media/
 /slides/
+
+# Local render checks and packaged outputs
+work/
+outputs/

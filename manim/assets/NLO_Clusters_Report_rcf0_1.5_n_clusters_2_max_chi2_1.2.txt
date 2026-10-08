@@ -1,0 +1,41 @@
+REPORT CLUSTERING NLO (Cutoff = 1.5)
+Cluster richiesti: 2
+Righe totali caricate: 320658
+Righe totali dopo filtraggio: 1200
+Massimo chi2/dof per i dati filtrati: 1.1999
+================================================================================
+
+--- Set 1 ---
+Punti nel cluster: 533
+
+Scattering Lengths:
+  a_s = -2.8194 +/- 0.0834
+  a_t = -1.4226 +/- 0.0301
+
+MIGLIOR RAPPRESENTANTE Set 1 E DISPERSIONE (Dev. Standard):
+  chi2/dof = 1.0210
+  LECs:
+    c0c = -6.3377 +/- 0.2806 (4.4%)
+    c0s = 4.1750 +/- 0.3329 (8.0%)
+    c2c = -1.8165 +/- 0.1721 (9.5%)
+    c2s = 2.7907 +/- 0.2906 (10.4%)
+    c2b = -1.1161 +/- 1.4062 (126.0%)
+    c2t = 0.1977 +/- 0.2482 (125.5%)
+    c2ba = -17.7348 +/- 1.1996 (6.8%)
+--- Set 2 ---
+Punti nel cluster: 667
+
+Scattering Lengths:
+  a_s = -2.5867 +/- 0.0788
+  a_t = -1.4403 +/- 0.0125
+
+MIGLIOR RAPPRESENTANTE Set 2 E DISPERSIONE (Dev. Standard):
+  chi2/dof = 1.1115
+  LECs:
+    c0c = -15.5508 +/- 0.1084 (0.7%)
+    c0s = -4.1127 +/- 0.0435 (1.1%)
+    c2c = -5.9005 +/- 0.1438 (2.4%)
+    c2s = -2.5067 +/- 0.1061 (4.2%)
+    c2b = 10.8021 +/- 0.6456 (6.0%)
+    c2t = -0.5430 +/- 0.1541 (28.4%)
+    c2ba = -0.3097 +/- 0.5729 (185.0%)

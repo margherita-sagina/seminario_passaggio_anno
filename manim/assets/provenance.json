@@ -1,0 +1,92 @@
+{
+  "cross_section_uncertainty_lo_r0_0p7.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_lo_r0_0p7.csv",
+    "sha256": "6881481be79cfbef1d6be0934266fe81db745d03ca680b3719cabb1d935fde7d"
+  },
+  "cross_section_uncertainty_lo_r0_1.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_lo_r0_1.csv",
+    "sha256": "402c1511275791889ec216381e5a571851405661a874fd69235afc60f49fbda8"
+  },
+  "cross_section_uncertainty_lo_r0_1p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/LO_overview_results.txt",
+    "calculation": "Locally copied pre-existing solver, R0=1.5, Cs=-2.2261, Ct=0.1821. Rank 1 selected representative. No refit.",
+    "sha256": "fc94da4538da2306490caa44c47cf6079447c5f29a49ca8830788f0ed59a5d1a"
+  },
+  "cross_section_uncertainty_lo_r0_2.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_lo_r0_2.csv",
+    "sha256": "baf490fbee7f1aa8df4978c48423ceb2461096e086edcfe86c0a51bb90f49876"
+  },
+  "cross_section_uncertainty_lo_r0_2p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_lo_r0_2p5.csv",
+    "sha256": "4dd294b7757e64b2e1336b7f0471d8a2afef632d102bd06ae8308c6785d6aa61"
+  },
+  "cross_section_uncertainty_nlo_r0_0p7.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_nlo_r0_0p7.csv",
+    "sha256": "29e4526f0749d99e20f3ebaf3f6039e61559ac258a24588221e6cc54c2fd35a9"
+  },
+  "cross_section_uncertainty_nlo_r0_1.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_nlo_r0_1.csv",
+    "sha256": "dbe9c03002db13171c3ebf668fe4722e8f1d9d77c1a5254aaaf774adaf7112e5"
+  },
+  "cross_section_uncertainty_nlo_r0_1p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_nlo_r0_1p5.csv",
+    "sha256": "024b453656614a01da11e89a799e233a12b6a37528064eb70865b1a7a9da6acc"
+  },
+  "cross_section_uncertainty_nlo_r0_2.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/cross_section_uncertainty_nlo_r0_2.csv",
+    "sha256": "0a66650530bd3ebed20da3adba651b84473c876da8d68814136a6db55a7a6975"
+  },
+  "lo_r01p0.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/lo_r01p0.csv",
+    "sha256": "35809f982caba8bb7ca6a646133c3dab19edcb5daf2da5757cfcb8e63d9c6cf0"
+  },
+  "lo_r01p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/LO_overview_results.txt",
+    "calculation": "Locally copied pre-existing solver, R0=1.5, Cs=-2.2261, Ct=0.1821. Rank 1 selected representative. No refit.",
+    "sha256": "fc94da4538da2306490caa44c47cf6079447c5f29a49ca8830788f0ed59a5d1a"
+  },
+  "lo_r02p0.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/lo_r02p0.csv",
+    "sha256": "296503909c4109210ae58ef8bd682e2b4c0ed982a4e2cfca6d420a2b991989dc"
+  },
+  "lo_r02p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/lo_r02p5.csv",
+    "sha256": "ad5c08381137ddc4e6ec7cd43033eaaa24ca6e333fff8730158c5afc2fc47915"
+  },
+  "nlo_r01p0.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/nlo_r01p0.csv",
+    "sha256": "22aded0285b237483c71a738b9c7b711c8562b52a7789d1398884fe9a29ffe6a"
+  },
+  "nlo_r01p5.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/nlo_r01p5.csv",
+    "sha256": "d90f522674c691603f7e003c8900798fad951c0f40b78e775929cafab35047f3"
+  },
+  "nlo_r02p0.csv": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/results/nlo_r02p0.csv",
+    "sha256": "8a14be1b52d87fbf6474674c9d518a44f3e521f734c58bd12377a83534184b8a"
+  },
+  "experimental_cross_section.dat": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/lambda_n_cross_section_modern/data/experimental_cross_section.dat",
+    "sha256": "76c755e11d57d715adf6598921c93f1d7c5033c50013f73e3a68fe53fd8efb34"
+  },
+  "eft_drawings": {
+    "source": "seminario_passaggio_anno.pdf, PDF page 10",
+    "treatment": "crop only"
+  },
+  "LO_overview_results.txt": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/LO_overview_results.txt",
+    "sha256": "6e4707b4d459b7eb5d105afefbe24e8aaf742db3d40ee6f9d794415a717a6751"
+  },
+  "NLO_Clusters_Report_rcf0_1.5_n_clusters_2_max_chi2_1.2.txt": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/rcf0=1.500/clustering_results/NLO_Clusters_Report_rcf0_1.5_n_clusters_2_max_chi2_1.2.txt",
+    "sha256": "c7a76c0d3b33d8fe6dc8c790e4cd2b4092859ad008e323ee82290cbcc4fb731c"
+  },
+  "NLO_Clusters_Report_rcf0_1.0_n_clusters_3_max_chi2_1.2.txt": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/rcf0=1.0/overview/NLO_Clusters_Report_rcf0_1.0_n_clusters_3_max_chi2_1.2.txt",
+    "sha256": "cd3637ad6e447dae3d26aeedee9069c53a45f2a89d157bec750315498437ad8a"
+  },
+  "NLO_Clusters_Report_rcf0_2.0_n_clusters_4_max_chi2_1.1.txt": {
+    "source": "/Users/margherita/Desktop/UNIPI/TESI/CODICE/CODICI_PHASE-SHIFTS/PARALLEL-PETSC/Analisi/analysis_results/rcf0=2.0/overview/NLO_Clusters_Report_rcf0_2.0_n_clusters_4_max_chi2_1.1.txt",
+    "sha256": "a329713c4c4a028c5f7048767d31d868f43680e120c23ebe66543d98709f9c9a"
+  }
+}

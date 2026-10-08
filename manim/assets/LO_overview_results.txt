@@ -1,0 +1,90 @@
+OVERVIEW RISULTATI LEADING ORDER (LO) PER DIVERSI CUTOFF (rcf0)
+================================================================================
+
+--- Risultati per: rcf0=.700 ---
+File analizzato: chi2_results_LO_2026-04-18_13:06:28.txt
+Punti elaborati: 664 su 961 totali hanno a_s < 0 e a_t < 0 (69.1%)
+Migliori raggruppamenti (chi2/dof più vicino a 1.0):
+  Rank 1: chi2/dof = 0.912 (62 points)
+    • Scatt. lengths: a_s = -2.6300, a_t = -1.1152
+    • Final LECs:     c0c = -4.0301, c0s = 2.8544
+    • P-values:       p_lower = 4.7244e-01, p_upper = 5.2756e-01
+  Rank 2: chi2/dof = 0.834 (1 points)
+    • Scatt. lengths: a_s = -3.0170, a_t = -1.5207
+    • Final LECs:     c0c = -27.7365, c0s = -5.0213
+    • P-values:       p_lower = 3.9442e-01, p_upper = 6.0558e-01
+  Rank 3: chi2/dof = 0.764 (111 points)
+    • Scatt. lengths: a_s = -2.7057, a_t = -1.1842
+    • Final LECs:     c0c = -9.2170, c0s = 8.0115
+    • P-values:       p_lower = 3.2338e-01, p_upper = 6.7662e-01
+
+----------------------------------------
+
+--- Risultati per: rcf0=1.000 ---
+File analizzato: chi2_results_LO_2026-04-18_13:11:29.txt
+Punti elaborati: 351 su 961 totali hanno a_s < 0 e a_t < 0 (36.5%)
+Migliori raggruppamenti (chi2/dof più vicino a 1.0):
+  Rank 1: chi2/dof = 1.105 (27 points)
+    • Scatt. lengths: a_s = -3.2712, a_t = -1.5542
+    • Final LECs:     c0c = -13.3944, c0s = -3.7496
+    • P-values:       p_lower = 6.4771e-01, p_upper = 3.5229e-01
+  Rank 2: chi2/dof = 0.764 (186 points)
+    • Scatt. lengths: a_s = -2.5039, a_t = -1.1924
+    • Final LECs:     c0c = -1.5980, c0s = 0.1293
+    • P-values:       p_lower = 3.2354e-01, p_upper = 6.7646e-01
+  Rank 3: chi2/dof = 0.728 (24 points)
+    • Scatt. lengths: a_s = -2.8779, a_t = -1.5914
+    • Final LECs:     c0c = -23.8054, c0s = 22.1268
+    • P-values:       p_lower = 2.8787e-01, p_upper = 7.1213e-01
+
+----------------------------------------
+
+--- Risultati per: rcf0=1.500 ---
+File analizzato: chi2_results_LO_2026-04-18_13:16:26.txt
+Punti elaborati: 186 su 961 totali hanno a_s < 0 e a_t < 0 (19.4%)
+Migliori raggruppamenti (chi2/dof più vicino a 1.0):
+  Rank 1: chi2/dof = 0.799 (30 points)
+    • Scatt. lengths: a_s = -3.0444, a_t = -1.5478
+    • Final LECs:     c0c = -2.2261, c0s = 0.1821
+    • P-values:       p_lower = 3.5884e-01, p_upper = 6.4116e-01
+  Rank 2: chi2/dof = 2.564 (14 points)
+    • Scatt. lengths: a_s = -3.1611, a_t = -2.0013
+    • Final LECs:     c0c = -8.2891, c0s = 5.9625
+    • P-values:       p_lower = 9.9699e-01, p_upper = 3.0099e-03
+  Rank 3: chi2/dof = 3.063 (136 points)
+    • Scatt. lengths: a_s = -2.7840, a_t = -2.1464
+    • Final LECs:     c0c = -19.2741, c0s = 16.8711
+    • P-values:       p_lower = 9.9959e-01, p_upper = 4.0583e-04
+
+----------------------------------------
+
+--- Risultati per: rcf0=2.000 ---
+File analizzato: chi2_results_LO_2026-04-18_13:28:33.txt
+Punti elaborati: 47 su 961 totali hanno a_s < 0 e a_t < 0 (4.9%)
+Migliori raggruppamenti (chi2/dof più vicino a 1.0):
+  Rank 1: chi2/dof = 3.140 (14 points)
+    • Scatt. lengths: a_s = -3.8527, a_t = -1.9291
+    • Final LECs:     c0c = -2.8765, c0s = 0.2497
+    • P-values:       p_lower = 9.9971e-01, p_upper = 2.9468e-04
+  Rank 2: chi2/dof = 7.910 (7 points)
+    • Scatt. lengths: a_s = -2.4812, a_t = -2.5601
+    • Final LECs:     c0c = -10.7397, c0s = 7.6983
+    • P-values:       p_lower = 1.0000e+00, p_upper = 6.3949e-14
+  Rank 3: chi2/dof = 8.593 (26 points)
+    • Scatt. lengths: a_s = -5.7096, a_t = -1.2268
+    • Final LECs:     c0c = -25.4497, c0s = -7.1055
+    • P-values:       p_lower = 1.0000e+00, p_upper = 2.1094e-15
+
+----------------------------------------
+
+--- Risultati per: rcf0=2.500 ---
+File analizzato: chi2_results_LO_2026-04-18_13:28:33.txt
+Punti elaborati: 21 su 961 totali hanno a_s < 0 e a_t < 0 (2.2%)
+Migliori raggruppamenti (chi2/dof più vicino a 1.0):
+  Rank 1: chi2/dof = 8.240 (21 points)
+    • Scatt. lengths: a_s = -4.6160, a_t = -2.2658
+    • Final LECs:     c0c = -3.4926, c0s = 0.3220
+    • P-values:       p_lower = 1.0000e+00, p_upper = 1.2546e-14
+
+----------------------------------------
+
