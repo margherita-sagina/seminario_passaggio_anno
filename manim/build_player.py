@@ -11,7 +11,8 @@ for cls in SCENES:
  for i,item in enumerate(data['slides']):
   name=f'{cls.number:02d}-{i+1:02d}.mp4';shutil.copyfile(ROOT/item['file'],OUT/'media'/name)
   parts.append('media/'+name)
- stills=sorted((ROOT/'work/stills').glob(f'{cls.number:02d}-*.png'))
+ stills=sorted((OUT/'pngs').glob(f'{cls.__name__}-[0-9][0-9].png'))
+ if not stills: raise FileNotFoundError(f'No PNGs for {cls.__name__}; run python deck.py pngs')
  poster=f'posters/{cls.number:02d}.png';shutil.copyfile(stills[-1],OUT/poster)
  notes='\n\n'.join(dict.fromkeys(x['notes'] for x in data['slides'] if x['notes']))
  deck.append(dict(title=cls.title,section=cls.section,minutes=cls.minutes,clips=parts,poster=poster,notes=notes))
@@ -36,7 +37,23 @@ DECK.forEach((d,i)=>{const b=document.createElement('button');b.className='tile'
 v.addEventListener('click',advance);document.addEventListener('mousemove',wake);document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]')){if(e.key==='Escape')document.querySelector('dialog[open]').close();return}const k=e.key.toLowerCase();if([' ','arrowright','arrowleft'].includes(k))e.preventDefault();if(k===' '||k==='arrowright'){e.shiftKey?jump(chapter+1):advance()}else if(k==='arrowleft'){e.shiftKey?jump(chapter-1):previous()}else if(k==='r')load();else if(k==='p')v.paused?v.play():v.pause();else if(k==='f')full();else if(k==='o')panel('overview');else if(k==='n')panel('notes')});
 v.poster=DECK[0].poster;refresh();
 </script></body></html>'''
-(OUT/'seminar.html').write_text(html.replace('__DECK__',json.dumps(deck,ensure_ascii=False)))
+light_css='''
+:root{color-scheme:light;--bg:#fffcf5;--cream:#322c21;--teal:#3c7f72;--gold:#f8b037}
+body{background:#fffcf5;color:#322c21}
+button{background:#f4f0e8;color:#322c21;border-color:#c7c4ba}
+button:hover,button:focus-visible{background:#eae5da}
+#landing{background:linear-gradient(transparent 70%,#fffcf5dc)}
+#landing button{background:#322c21;color:#fffcf5}
+#controls{background:#fffcf5f5;border-top-color:#c7c4ba}
+#caption span,.tile small{color:#626c6b}
+#overview,#notes,#help{background:#fffcf5fa;border-color:#c7c4ba}
+kbd{background:#eae5da}
+#toast{background:#fffcf5ed;border:1px solid #c7c4ba}
+'''
+(OUT/'seminar.html').write_text(
+ html.replace('__DECK__',json.dumps(deck,ensure_ascii=False))
+     .replace('24.3 minutes',f'{sum(d["minutes"] for d in deck):g} minutes')
+     .replace('</style>',light_css+'</style>'))
 (OUT/'deck.json').write_text(json.dumps(deck,ensure_ascii=False,indent=2))
 (OUT/'README.md').write_text('''# Animated seminar
 
@@ -48,13 +65,13 @@ Open **seminar.html** in a browser and click **Start presentation**. The deck ru
 - R: replay. P: pause / resume. F: full screen.
 - O: slide overview. N: scientific source and speaker notes.
 
-22 slides, suggested speaking times totalling 24.3 minutes. These times include the spoken explanation; animations pause until you advance. Full HD Manim animations, 30 frames per second. The individual numbered MP4 clips in media can subsequently be imported into Canva.
+22 slides, suggested speaking times totalling 24.1 minutes. These times include the spoken explanation; animations pause until you advance.
 
-The figures use the supplied calculations and reports. The LO R0 = 1.5 fm representative was evaluated locally with the existing solver copied into this project; no fitting or source-code changes were performed in CODICE. Provenance is recorded in ../assets/provenance.json. Bands show the spread across stated discrete regulators, not statistical confidence intervals. Qualitative illustrations are identified on their slides. The HH/NSHH table benchmarks the triton; the hypertriton is an outlook application.
+The data plots use the supplied calculations and reports. Provenance is recorded in ../assets/provenance.json. Qualitative diagrams are identified in the speaker notes. The HH/NSHH table benchmarks the triton; the hypertriton is an outlook application.
 
-The layout follows the supplied PDF: ivory background, charcoal title band, four coloured stripes, numbered tab and split footer rule. Yanone Kaffeesatz is used for headings and key statements; Open Sans SemiCondensed for body text. Fonts are bundled in ../assets/fonts and registered locally at render time. Animation follows the supplied Manim reference: staggered reveals, equation relocation, continuous parameter changes, traced motion, subtle conclusion outlines and dissolves between slides.
+The layout and diagrams are authored in Manim. Fonts are bundled in ../assets/fonts and registered locally at render time.
 
-Editable Manim source is ../seminar.py. Render the 22 named S01…S22 scenes, then run ../build_player.py from the manim directory. No PDF is produced.
+Editable Manim source is ../seminar.py. Use ../deck.py to render, export PNGs and present the deck.
 ''')
 with zipfile.ZipFile(OUT/'animated_seminar.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
  for p in [OUT/'seminar.html',OUT/'README.md',*sorted((OUT/'media').glob('*.mp4')),*sorted((OUT/'posters').glob('*.png'))]:z.write(p,p.relative_to(OUT))
